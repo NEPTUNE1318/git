@@ -8,6 +8,7 @@
 5. $ git commit -m "수정된 내용"
 6. $ git branch -M master
 7. $ git remote add origin 링크
+(만약 7번이 안될 경우 $ git remote remove origin)
 8. $ git push -u origin master
 
 ## 수정
