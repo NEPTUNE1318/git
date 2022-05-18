@@ -17,3 +17,14 @@
 
 ## git file 다운 방법
 1. $ git clone (git link)
+
+## 되돌리기
+$ git checkout 해시코드 6자리      // 해당 해시코드의 버전 불러오기
+$ git checkout 브런치 이름         // 최신에 커밋된 버전을 불어오기
+$ git revert 해시코드 6자리        // 해당 해시코드의 버전 불러오고 커밋까지 자동 실행
+$ git revert --hard 해시코드 6자리 // 해당 해시코드의 이후 모두 버전 삭제
+
+## 유용한 명령어
+$ git status                      // 지금 git의 상태
+$ git log                         // 변경괸 것을 로그로 나타내냄
+
